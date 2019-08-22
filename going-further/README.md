@@ -26,5 +26,5 @@ Beyond the basic `#[wasm-bindgen]` attribute, there are arguments that can be pr
 
 ## Exercises
 
-1.) Try creating custom types that can be used from JavaScript. Inspect the JavaScript generated for this and try to understand how the type gets converted to and from JavaScript.
-2.) In the challenge we used a common pattern where we wrapped types from another library and exposed these wrapper types to JavaScript using wasm-bindgen. If we have access to the base library we may just want to directly expose our types to wasm-bindgen. Copy lib-gameboy and modifiy it such that it directly exposes its types to JavaScript without needing to be wrapped.
+1. Try creating custom types that can be used from JavaScript. Inspect the JavaScript generated for this and try to understand how the type gets converted to and from JavaScript.
+2. In the challenge we used a common pattern where we wrapped types from another library and exposed these wrapper types to JavaScript using wasm-bindgen. If we have access to the base library we may just want to directly expose our types to wasm-bindgen. Copy lib-gameboy and modifiy it such that it directly exposes its types to JavaScript without needing to be wrapped.
